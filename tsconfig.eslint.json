@@ -1,0 +1,5 @@
+{
+  "extends": "./tsconfig.json",
+  "include": ["**/*.ts"], // Still want to lint test files and mocks
+  "exclude": ["node_modules"]
+}
